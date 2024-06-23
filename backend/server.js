@@ -8,7 +8,7 @@ import authRoutes from './Routes/auth.routes.js'
 import messageRoutes from './Routes/message.routes.js'
 import userRoutes from './Routes/users.routes.js'
 
-import connectToMongoDb from './db/ConnectToMongo.js';
+import connectToMongoDb from './db/connectToMongo.js';
 import {app, server } from './socket/socket.js';
 
 
